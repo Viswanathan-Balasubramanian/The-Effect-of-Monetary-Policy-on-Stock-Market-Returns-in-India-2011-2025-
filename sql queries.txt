@@ -1,0 +1,93 @@
+  
+SQL QUERIES WITH EXPLANATIONS
+
+  1.Retrieve all records from monetary rates table.
+    Explanation: Shows full monetary data to verify import and structure.
+  
+  2.List all stock prices for 2011.
+    Explanation: Filters data for a specific year to analyze market movement.
+
+  3.Show CPI Combined data for 2025.
+    Explanation: Extracts inflation and index for recent year.
+
+  4.Display months where repo rate > 6.
+    Explanation: Identifies tight monetary policy periods.
+
+  5.Get stock returns where return % < 0.
+    Explanation: Shows months where market fell.
+ 
+  6.Show rural CPI inflation for 2025.
+    Explanation: Helps compare rural economic conditions.
+
+  7.Count CPI-Urban records.
+    Explanation: Confirms completeness of dataset.
+
+  8.Highest stock price recorded.
+    Explanation: Finds market peak.
+ 
+  9.Display monetary data sorted by year & month.
+    Explanation: Useful for time-series analysis.
+
+  10.Distinct years in stock price data.
+     Explanation: Shows data coverage.
+
+  11. Average repo rate per year.
+      Explanation: Summarizes monetary policy trend.
+
+  12. Average stock return per year.
+      Explanation: Measures yearly market performance.
+
+  13. Compare CPI Combined vs CPI Urban for 2025.
+      Explanation: Shows differences in inflation pattern.
+
+  14. List months with positive stock return.
+      Explanation: Identifies bullish periods.
+
+  15. Monthly stock volatility per year.
+      Explanation: Standard deviation indicates risk.
+
+  16. Compare inflation from all CPI tables.
+      Explanation: Useful for rural vs urban vs combined contrast.
+
+  17. Months where urban inflation > combined.
+      Explanation: Shows urban cost pressure.
+
+  18. Average CPI combined index per year.
+      Explanation: Supports long-run inflation trend analysis.
+
+  19. Show repo, stock return & CPI combined for same months.
+      Explanation: Combines three economic factors.
+
+  20. Months where reverse repo < repo rate.
+      Explanation: Validates monetary structure.
+
+  21. Identify months where repo rate increased AND stock return decreased.
+      Explanation: Shows monetary tightening + market fall correlation.
+
+  22. Compare CPI inflation trend with stock returns.
+      Explanation: Inflation vs stock relationship analysis.
+
+  23. Quarter-wise CPI combined index.
+      Explanation: Helps economic quarterly review.
+
+  24. Identify most volatile months.
+      Explanation: High-risk periods detection.
+
+  25. Repo rate vs stock return comparison.
+      Explanation: Finds monetary policy impact signals.
+
+  26. Lag effect: repo rate this month vs stock return next month.
+      Explanation: Tests delayed market reaction.
+
+  27. Months where urban inflation > rural inflation.
+      Explanation: Shows cost of living pressure for urban residents.
+
+  28. Top 5 highest CPI inflation months.
+      Explanation: Detects inflation shock periods.
+
+  29. Economic Score (Repo + CPI + Stock).
+      Explanation: Builds synthetic macro indicator.
+
+  30. Detect economic stress (high inflation + negative returns + rising repo rate).
+      Explanation: Identifies recession-like periods.
+
