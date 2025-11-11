@@ -60,5 +60,65 @@ Ministry of Statistics – CPI rural, urban, combined
    CPI inflation trends
    Stock price and return comparison
    Multi-card KPI dashboard
+   
+ # Findings
+    ## Monetary Policy vs Stock Market
+    ## Strong negative correlation with Stock Price
+
+       Bank rate & Stock Price = –0.436
+       Repo rate & Stock Price = –0.479
+       Reverse repo & Stock Price = –0.864
+
+   Meaning:
+         Higher interest rates → higher borrowing cost → lower market liquidity → stock prices fall. Reverse repo has the strongest effect because it influences liquidity absorption by RBI.
+
+    ## Very weak correlation with stock return
+
+       Repo rate & stock return = –0.056
+       Bank rate & stock return = 0.003
+       Reverse repo & stock return = -0.058
+
+   Meaning:
+      Daily or monthly stock returns are noisy and influenced by market behavior, so interest rates do not explain short-term returns directly.
 
 
+ ## Inflation Rate vs Monetary Policy
+ ## Weak correlations
+
+    Repo rate & combined inflation = 0.018
+    Reverse repo & combined inflation = –0.033
+    Bank rate & combined inflation = 0.195
+
+    Meaning:
+     Inflation rates change month-to-month due to food prices, oil, supply shocks.RBI policy changes happen few times yearly.Therefore correlation is low.
+
+
+  ## Stock Return vs Inflation
+  ## Weak positive correlation
+
+stock return & combined inflation = 0.148
+stock return & urban inflation = 0.164
+stock return & rural inflation = 0.144
+
+Meaning:
+There is no strong relationship.Stock returns depend on global markets, sentiment, company earnings → not just inflation.
+
+## Overall  findings
+    RBI interest rates move together (very high correlation).
+    Higher interest rates → lower stock prices (negative correlation).
+    Stock price and inflation index move together due to long-term trends, not direct impact.
+    Inflation rate and policy rates show weak correlation.
+    Urban, rural, and combined inflation indicators are almost identical in movement.
+    Stock return is weakly correlated with inflation and rates → short-term returns unpredictable.
+    regression models show very low R² and insignificant coefficients, confirming that:
+        → Short-term stock behavior is not driven by macroeconomic variables like interest rates or inflation.
+        → Market sentiment, global factors, and company fundamentals drive stock prices and returns.
+
+## conclusion
+
+
+The objective of this study was to examine the relationship between monetary policy indicators (bank rate, repo rate, reverse repo rate), inflation measures (combined, urban, rural), and stock market performance in India. Based on the correlation and regression analyses conducted on the dataset, several key insights emerge.
+The correlation results show that monetary policy rates are highly synchronized, indicating coordinated policy movements by the RBI. These policy rates exhibit a negative relationship with stock prices, implying that tighter monetary conditions are generally associated with lower market levels. However, this relationship does not extend to stock returns, which show almost no correlation with interest rates—highlighting the short-term unpredictability of stock market movements.
+Inflation indices (combined, urban, rural) demonstrate very strong positive correlations with stock prices, driven mainly by the long-term upward trend present in both series. However, inflation rates themselves show very weak or negligible correlation with both stock prices and stock returns, suggesting that short-term inflation fluctuations do not significantly influence market performance.The regression analysis reinforces these findings. Both models—stock return on monetary variables and stock price on inflation variables—show extremely low explanatory power (R² < 3%). None of the monetary or inflation variables were statistically significant predictors of stock prices or returns. This indicates that movements in interest rates and inflation do not have a measurable short-term impact on India’s stock market. The presence of autocorrelation in stock price residuals further reveals that stock prices follow a strong time trend rather than being driven by macroeconomic indicators.
+
+Overall, the results suggest that short-term stock market behavior in India is largely independent of changes in interest rates and inflation. Instead, stock performance appears to be driven primarily by market sentiment, global economic conditions, institutional flows, and company-level fundamentals. Monetary policy and inflation may influence long-term market direction, but their short-run effects on stock prices and returns are limited.This study concludes that macroeconomic variables like interest rates and inflation have minimal predictive ability for near-term stock market movements. Investors, analysts, and policymakers should therefore consider broader market dynamics and global influences when assessing stock market behavior rather than relying solely on domestic macroeconomic indicators.
