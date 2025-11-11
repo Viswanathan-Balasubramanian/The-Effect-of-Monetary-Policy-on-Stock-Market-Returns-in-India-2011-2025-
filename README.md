@@ -33,4 +33,32 @@ Stock returns show how the market reacts to interest rate changes, inflation, an
 
 3. CPI Rural Inflation
    Measures inflation in rural areas. Covers: food,fuel,agricultural goods and rural wages.Rural inflation impacts farmers and rural households.
-   
+
+
+  # Data Sources
+RBI database – repo rate, reverse repo, bank rate
+NSE website – Nifty stock prices
+Ministry of Statistics – CPI rural, urban, combined
+
+  # Time period
+  From 2011-2025
+
+  # Tools used for this project 
+  Excel,Python,SQL and Power BI.
+
+  1.Excel 
+    In Excel cleaned missing values, Combined multiple datasets (monetary + CPI + stock),Created new columns like stock returns,Verified using filters, pivot tables.
+
+  2.SQL 
+    Imported datasets into MySQL, Cleaned data using SQL (JOIN, LAG, WHERE, date formatting),Wrote analytical queries,Ensured data consistency
+
+  3 Python Analysis
+    Explain that Python was used for: Charts (matplotlib, seaborn),Correlation analysis,Regression model (OLS),Checking significance (p-values, R²)
+ 
+  4 Power BI Visualization
+   Repo/Reverse Repo trend
+   CPI inflation trends
+   Stock price and return comparison
+   Multi-card KPI dashboard
+
+
